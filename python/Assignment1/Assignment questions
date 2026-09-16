@@ -1,0 +1,208 @@
+1. Create variables to store your name, age, height, and city. Print them in a meaningful format using string formatting methods. 
+
+2. Take two numbers and swap their values without using a third variable.
+Example:
+Before swapping:
+a = 10
+b = 20
+After swapping:
+a = 20
+b = 10
+
+3. Store marks of five subjects in five variables. then Calculate and display:
+* Total marks
+* Average marks
+
+4. Store a number representing total seconds. Convert it into minutes and Remaining seconds
+Example:
+Input: 367
+Output:
+Minutes = 6
+Seconds = 7
+
+5. Store the length and breadth of a rectangle. Calculate Area and Perimeter
+Then determine the result using appropriate arithmetic operators.
+
+6. Create a variable containing your full name.
+Display:
+* First character
+* Last character
+* First three characters
+* Last three characters
+* Name in reverse
+
+7. Extract From a String
+input= "PythonProgramming"
+Use slicing to display:
+Python
+Programming
+PythonProgramming
+gnimmargorP
+
+8. input= "ABCDEFGHIJ"
+Use slicing to display:
+ACEGI
+BDFHJ
+
+9. Reverse Every Second Character
+input= "PYTHONPROGRAMMING"
+Use slicing to display characters from the string in reverse order, taking every second character.
+
+10. Username Generator
+full_name = "John Smith"
+Create a username using slicing and string methods.
+Expected format:
+john_smith
+
+12. String Methods Challenge
+input= "   python programming is fun   "
+Create a program that displays:
+1. The string without leading/trailing spaces
+2. The string in uppercase
+3. The string in lowercase
+4. The string in title case
+5. The number of times `"p"` occurs
+6. The position of `"programming"`
+7. The string after replacing `"fun"` with `"powerful"`
+
+13. Create a list containing five shopping items.
+Perform the following operations:
+* Add one item to the end
+* Add one item at a specific position
+* Remove one item
+* Display the first item
+* Display the last item
+* Display the first three items
+* Display the list in reverse
+
+14. List Slicing Challenge
+numbers = [10, 20, 30, 40, 50, 60, 70, 80]
+Use slicing to display:
+* First four elements
+* Last four elements
+* Elements from index 2 to 5
+* Every alternate element
+* Alternate elements starting from index 1
+* The list in reverse
+
+15. Modify a List Using Slicing
+numbers = [10, 20, 30, 40, 50]
+Use slice assignment to replace:
+20, 30
+with:
+200, 300, 400
+Display the final list.
+
+16. Create a list of numbers containing some duplicate values.
+Perform:
+* `append()`
+* `insert()`
+* `remove()`
+* `pop()`
+* `count()`
+* `index()`
+* `sort()`
+* `reverse()`
+Display the list after the operations.
+
+17.Create a list containing marks of six students.
+Display:
+* First mark
+* Last mark
+* Highest mark
+* Lowest mark
+* Total marks
+* Number of students
+
+18.numbers = (10, 20, 30, 20, 40, 20, 50)
+* How many times `20` occurs
+* The index of `40`
+* The first four elements
+* The tuple in reverse
+
+21.numbers = [10, 20, 20, 30, 30, 30, 40, 50, 50]
+Convert the list into a set to remove duplicate values.
+Display the resulting set.
+
+22. Create two sets:
+A = {10, 20, 30, 40, 50}
+B = {40, 50, 60, 70, 80}
+Display:
+* Union
+* Intersection
+* Difference of A
+* Difference of B
+* Symmetric difference
+
+23. Create a set of five fruits.
+Perform:
+* Add a new fruit
+* Add multiple fruits
+* Remove a fruit
+* Discard a fruit
+* Check whether a particular fruit exists in the set
+
+24.Create a dictionary containing:
+Name
+Age
+Course
+Marks
+City
+Display each value using its corresponding key.
+Then:
+* Update the marks
+* Add a new key called `"Grade"`
+* Display the final dictionary
+
+25. 
+student = {
+    "name": "Rahul",
+    "age": 20,
+    "course": "Python",
+    "marks": 85
+}
+Use appropriate dictionary methods to display:
+* All keys
+* All values
+* All key-value pairs
+* Value of `"name"` using `get()`
+* Remove `"age"`
+* Add `"city"`
+
+26. Create a dictionary for a product containing:
+product_name
+price
+quantity
+category
+Calculate the total cost using the price and quantity stored in the dictionary.
+
+27. email = "student@example.com"
+Using string methods and slicing, extract:
+Username: student
+Domain: example.com
+Do not manually create the output strings.
+
+28. name = "   aLiCe johnSoN   "
+Create a properly formatted name:
+Alice Johnson
+Use appropriate string methods.
+
+29. Shopping Cart
+Create:
+items = ["Laptop", "Mouse", "Keyboard"]
+prices = [50000, 1000, 2500]
+Display:
+* First item and its price
+* Last item and its price
+* Total price
+* Number of items
+* Items in reverse order
+
+30. data = "10,20,30,40,50,20,30"
+1. Convert the string into a list of numbers.
+2. Convert the list into a set to remove duplicates.
+3. Convert the set into a tuple.
+4. Display the final tuple.
+5. Display the number of unique values.
+6. Display the maximum and minimum values.
+7. Display the tuple in reverse using slicing.

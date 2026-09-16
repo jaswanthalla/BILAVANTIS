@@ -1,0 +1,33 @@
+Numbers (int, float, complex)
+
+Conversion methods: int(), float(), complex()
+Rounding & formatting: round(), abs(), pow()
+
+Strings (str)
+
+Case methods: .upper(), .lower(), .title(), .capitalize()
+Search & check: .find(), .startswith(), .endswith(), .isdigit()
+Modify: .replace(), .strip(), .split(), .join()
+
+Lists (list)
+
+Add/remove: .append(), .insert(), .remove(), .pop()
+Sort & reverse: .sort(), .reverse()
+Count & index: .count(), .index()
+Copying: .copy()
+
+Tuples (tuple)
+
+.count()
+.index()
+
+Sets (set)
+
+Add/remove: .add(), .remove(), .discard()
+Set operations: .union(), .intersection(), .difference(), .issubset()
+
+Dictionaries (dict)
+
+Access: .get(), .keys(), .values(), .items()
+Update: .update(), .pop(), .popitem()
+Check: in keyword for keys
