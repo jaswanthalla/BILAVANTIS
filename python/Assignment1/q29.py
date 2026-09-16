@@ -7,7 +7,7 @@
 # * Last item and its price
 # * Total price
 # * Number of items
-# * Items in reverse order
+# * Items in reverse order.
 
 items = ["Laptop", "Mouse", "Keyboard"]
 prices = [50000, 1000, 2500]
