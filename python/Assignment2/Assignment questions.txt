@@ -1,0 +1,70 @@
+1. Write a program that accepts a number from the user and checks whether the number is:
+* Positive
+* Negative
+* Zero
+
+2. Accept three numbers from the user and find the largest number using conditional statements.
+
+3. Accept marks for a student and display the grade according to the following:
+
+| Marks    | Grade |
+| -- | -- |
+| 90–100   | A     |
+| 80–89    | B     |
+| 70–79    | C     |
+| 60–69    | D     |
+| Below 60 | F     |
+
+Also check whether the entered marks are valid. 
+For example, marks below `0` or above `100` should be treated as invalid.
+
+
+4. Write a program to determine whether a given year is a leap year.
+Hint: A leap year has a special relationship with divisibility by `4`, `100`, and `400`.
+
+
+5. Accept the number of electricity units consumed and calculate the bill using these rates:
+
+| Units           | Rate        |
+|  | -- |
+| First 100 units | ₹2 per unit |
+| Next 100 units  | ₹3 per unit |
+| Above 200 units | ₹5 per unit |
+
+Write a program using conditional statements to calculate the total bill.
+
+Example:
+Units consumed: 250
+Bill: ₹900
+
+
+6. Accept three sides of a triangle. First check whether the three sides can form a valid triangle. If valid, determine whether it is:
+
+* Equilateral
+* Isosceles
+* Scalene
+
+Hint: A triangle is valid only when the sum of any two sides is greater than the third side.
+
+
+7. Write a program that calculates a movie ticket price based on age and show timing.
+
+Rules:
+
+| Condition       | Ticket Price |
+|  | --: |
+| Age below 5     |         Free |
+| Age 5–12        |         ₹100 |
+| Age 13–59       |         ₹200 |
+| Age 60 or above |         ₹120 |
+
+Additionally:
+
+* If the show is before 5 PM, give a ₹30 discount.
+* If the person is below 5 years, the ticket remains free.
+* Display the final ticket price.
+
+Example:
+Enter age: 25
+Enter show time: 3
+Final ticket price: ₹170
