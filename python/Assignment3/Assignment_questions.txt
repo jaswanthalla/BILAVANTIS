@@ -1,0 +1,189 @@
+1. Create a function: check_number(num)
+The function should return:
+* `"Even"` if the number is even.
+* `"Odd"` if the number is odd.
+* `"Zero"` if the number is zero.
+Example:
+check_number(25)
+Output: Odd
+
+2. Create a function: find_largest(a, b, c)
+The function should return the largest of the three numbers.
+**Restriction:** Do not use `max()`.
+Example:
+find_largest(25, 10, 18)
+Output: 25
+
+3. Create a function: calculate_grade(marks)
+Rules:
+90–100 → A
+80–89  → B
+70–79  → C
+60–69  → D
+Below 60 → F
+If the marks are less than `0` or greater than `100`, return:
+Invalid Marks
+
+4. Create a function: login(username, password)
+The function should check whether:
+Username = "admin"
+Password = "python123"
+If both are correct, return:
+Login Successful
+If the username is incorrect, return:
+Invalid Username
+If the username is correct but the password is incorrect, return:
+Invalid Password
+
+5. Create:calculate_bill(units)
+Calculate the electricity bill using:
+First 100 units  → ₹2/unit
+101–200          → ₹3/unit
+Above 200        → ₹5/unit
+The function should return the final bill.
+**Important:** Calculate the bill progressively.
+For example, for `250` units:
+First 100  → 100 × 2
+Next 100   → 100 × 3
+Remaining  → 50 × 5
+
+6. Create:calculator(a, b, operator)
+Support:
++
+-
+*
+/
+%
+**
+Example:
+calculator(10, 3, "%")
+Output:
+1
+Handle division by zero appropriately.
+
+7. Create: check_password(password)
+The function should check the password length and return:
+"Strong"
+"Medium"
+"Weak"
+Rules:
+* Length less than 6 → Weak
+* Length 6–9 → Medium
+* Length 10 or more → Strong
+**Bonus:** Also check whether the password contains at least one digit.
+
+8. Create: generate_username(first_name, last_name)
+The function should:
+1. Remove unnecessary spaces.
+2. Convert the names to lowercase.
+3. Take the first three characters of the first name.
+4. Take the first three characters of the last name.
+5. Join them to create a username.
+Example:
+First name: Rahul
+Last name: Sharma
+Output:
+rahsha
+Use string methods and slicing.
+
+9. Create: ticket_price(age, show_time)
+Rules:
+Age below 5       → Free
+Age 5–12          → ₹100
+Age 13–59         → ₹200
+Age 60 or above   → ₹120
+Additional rule:
+If the show is before `5 PM`, give a ₹30 discount.
+The discount should **not** be applied to free tickets.
+Example:
+ticket_price(25, 3)
+Output:
+170
+
+10. Create: triangle_type(a, b, c)
+First determine whether the three sides form a valid triangle.
+If valid, return:
+Equilateral
+Isosceles
+Scalene
+If invalid, return:
+Invalid Triangle
+Example:
+triangle_type(10, 10, 10)
+Output:
+Equilateral
+
+11. Create: calculate_discount(amount, membership)
+Discount rules:
+Amount >= 10000 → 20%
+Amount >= 5000  → 10%
+Amount >= 2000  → 5%
+Below 2000      → No discount
+If the customer is a member, provide an **additional 5% discount**.
+Return the final amount after applying the discount.
+Example:
+calculate_discount(6000, True)
+
+12. Create: is_valid_date(day, month, year)
+Check whether the given date is valid.
+Consider:
+* Months with 30 days
+* Months with 31 days
+* February
+* Leap years
+Examples:
+29/02/2024 → Valid
+29/02/2023 → Invalid
+31/04/2025 → Invalid
+31/12/2025 → Valid
+**Challenge:** Do not use any date/time library.
+
+13. Create: withdraw(balance, amount)
+Rules:
+* Amount must be greater than `0`.
+* Amount must be a multiple of `100`.
+* Minimum balance after withdrawal must be ₹500.
+* Withdrawal cannot exceed the available balance.
+Return an appropriate message for each situation.
+Example:
+Balance: ₹5000
+Withdrawal: ₹2000
+Output:
+Withdrawal successful
+Remaining balance: ₹3000
+
+14. Create: analyze_number(num)
+The function should determine:
+* Whether the number is positive, negative, or zero.
+* Whether it is even or odd.
+* Whether it is divisible by both 3 and 5.
+Return/display all the results.
+Example:
+Number: 30
+Positive
+Even
+Divisible by both 3 and 5
+
+15. Create the following functions:
+calculate_total(m1, m2, m3)
+calculate_average(total)
+calculate_grade(average)
+check_result(m1, m2, m3)
+display_result(name, m1, m2, m3)
+Rules:
+A student passes only if:
+* Each subject mark is at least `35`.
+* Overall average is at least `40`.
+Grade:
+90+     → A
+80–89   → B
+70–79   → C
+60–69   → D
+40–59   → E
+Below 40 → F
+`display_result()` should call the other functions and produce:
+Student Name: Rahul
+Total: 255
+Average: 85
+Result: PASS
+Grade: B
