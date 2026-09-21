@@ -67,4 +67,4 @@ def display_result(name, m1, m2, m3):
     print(f"Grade: {grade}")
 
 
-display_result("Rahul", 85, 90, 80)
+display_result("Rahul", 100, 34, 100)
