@@ -51,3 +51,22 @@ select count(id) as "count", country from customers group by country;
 select * from products;
 
 select category,sum(unit_price) as "total unit_price" from products group by category;
+
+select country from customers group by country;
+
+select category,min(units_in_stock) as "total stock" from products group by category;
+
+select category,max(units_in_stock) as "total stock" from products group by category;
+
+
+-- creating database
+create database db;
+
+-- deleting database
+drop database db;
+
+create database db;
+use db;
+
+-- creating table
+create table new_table(id int not null auto_increment,first_name varchar(255),last_name varchar(255),department varchar(255),primary key(id));
