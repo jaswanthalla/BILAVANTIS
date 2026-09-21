@@ -15,7 +15,7 @@
 
 def ticket_price(age, show_time):
     if age < 5:
-        print(f"final ticket price {'free'}")
+        return f"final ticket price {'free'}"
     else:
         if show_time < 5:
             if 5 <= age <= 12:
@@ -36,6 +36,8 @@ def ticket_price(age, show_time):
 
             else:
                 ticket_price = 120
-            print(f"final ticket price {ticket_price}")
+        return f"final ticket price {ticket_price}"
 
 
+a = ticket_price(25, 3)
+print(a)
