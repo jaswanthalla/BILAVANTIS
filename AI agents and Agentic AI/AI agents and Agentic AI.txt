@@ -1,0 +1,48 @@
+AI agents and agentic AI
+
+Major AI building tools:
+
+Gemini spark
+
+OpenAI Frontier
+
+Claude Agent SDK
+
+
+Essential ingredients for building AI agents
+
+Key components involved in building ai agents:
+
+* The environment, in which the AI agent interacts with
+
+* Sensors, allowing the agent to perceive its environment
+
+* The model, which helps the agent interpret its perception and guide its understanding
+
+* Decision making logic, which determines how the agent selects appropriate actions
+
+* Actuators, the mechanisms actions and affects its environment
+
+* Feedback mechanisms allow the agent to evaluate whether it has successfully achieved its intended goals
+
+
+
+
+
+**Environment – the external world that the agent perceives and interacts with
+
+**Sensors – how the agent collects data about its surroundings
+
+**Model – the agent’s way of making sense of information
+
+**Decision-making logic – rules and objectives that guide the agent’s actions
+
+**Actions – how the agent shapes the environment
+
+
+
+
+
+
+
+
