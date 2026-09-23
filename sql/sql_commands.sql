@@ -69,4 +69,18 @@ create database db;
 use db;
 
 -- creating table
-create table new_table(id int not null auto_increment,first_name varchar(255),last_name varchar(255),department varchar(255),primary key(id));
+create table new_employees(id int not null auto_increment,first_name varchar(255),last_name varchar(255),department varchar(255),primary key(id));
+
+drop table new_table;
+
+create table new_customers(id int not null auto_increment,company_name varchar(255),country varchar(255),
+emp_id int,primary key (id),foreign key (emp_id) references new_employees(id));
+
+
+insert into new_employees(first_name,last_name,deptartment)
+values("surya","reddy","IT")
+
+
+
+
+
