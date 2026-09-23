@@ -1,0 +1,76 @@
+1. Banking System — Inheritance + Method Overriding
+
+Create a Banking System with:
+
+BankAccount as the parent class with:
+
+account_number
+holder_name
+balance
+deposit()
+withdraw()
+
+Create child classes:
+SavingsAccount
+CurrentAccount
+
+Each account should have different withdrawal rules.
+Override the withdraw() method in child classes.
+Create multiple account objects and perform transactions.
+
+
+
+2.Create an Employee Payroll System using multilevel inheritance:
+
+Person
+   ↓
+Employee
+   ↓
+Manager
+
+Requirements:
+
+Person → name, age
+Employee → employee ID, basic salary
+Manager → bonus, team size
+Calculate the final salary.
+Override a method such as calculate_salary() in Manager.
+Create objects for both employees and managers.
+
+
+
+3. Inheritance
+
+Create two real-world examples for each type of inheritance in Python.
+
+For every example:
+
+Use the self keyword appropriately.
+Use the super() function where applicable.
+Clearly demonstrate the relationship between the parent and child classes.
+Execute the methods and display the expected output.
+
+Cover the following types of inheritance:
+
+Single Inheritance
+Multiple Inheritance
+Multilevel Inheritance
+Hierarchical Inheritance
+Hybrid Inheritance
+
+
+4. Car Management System
+
+Design a Car parent class with appropriate variables and methods representing real-world car functionality.
+
+Requirements:
+
+Define suitable instance variables using self.
+Create multiple methods inside the Car class.
+Create appropriate child classes that inherit from the Car class.
+Use super() wherever required.
+Override methods in the child classes where appropriate.
+Create objects for the child classes.
+Execute all relevant parent and child methods.
+Display the output for each method execution.
+Clearly demonstrate how inheritance and method overriding work in your implementation.
