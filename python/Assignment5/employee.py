@@ -29,3 +29,6 @@ mgr = Manager("Rajesh", 35, "201", 60000, 15000, 5)
 
 print(f"Employee: {emp.name}, Salary: {emp.calculate_salary()}")
 print(f"Manager: {mgr.name}, Salary: {mgr.calculate_salary()}")
+
+f= open("Assignment_questions.txt")
+print(f.read())
