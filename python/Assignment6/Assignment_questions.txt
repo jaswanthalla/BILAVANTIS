@@ -1,0 +1,151 @@
+1. Create an abstract base class Employee
+
+The Employee class should contain:
+
+A public instance variable name
+A protected instance variable _employee_id
+A private instance variable __salary
+A class variable company_name shared by all employees
+
+Create:
+
+An __init__() method to initialize employee details.
+An abstract method calculate_bonus().
+A concrete instance method display_details() that displays employee information.
+A class method change_company_name() to change the company name.
+A static method is_valid_employee_id() to validate whether an employee ID follows a particular format.
+2. Create a Manager class
+
+Create a Manager class that inherits from Employee.
+
+Additional requirements:
+
+Add a public instance variable department.
+Add a protected variable _team_size.
+Override the calculate_bonus() method.
+Override the display_details() method.
+Use super() wherever appropriate.
+3. Create a Developer class
+
+Create a Developer class that inherits from Employee.
+
+Additional requirements:
+
+Add a public instance variable programming_language.
+Add a protected variable _projects_completed.
+Override calculate_bonus().
+Override display_details().
+Use super() where appropriate.
+4. Demonstrate Encapsulation
+
+The employee's salary must be stored as a private variable.
+
+Do not allow direct modification of salary from outside the class.
+
+Instead, provide appropriate methods such as:
+
+get_salary()
+set_salary()
+
+or use Python's @property mechanism.
+
+Demonstrate that the private variable is not directly accessible using its normal name.
+
+5. Demonstrate Instance vs Class Variables
+
+Your program must demonstrate the difference between:
+
+Instance variables
+Class variables
+
+For example, all employees should initially belong to the same company, but each employee should have their own:
+
+Name
+Employee ID
+Salary
+Department/language, etc.
+
+Change the company name using the class method and demonstrate its effect.
+
+6. Demonstrate Different Types of Methods
+
+Your program must contain and demonstrate:
+
+Method Type  Requirement
+Instance Method  display_details()
+Class Method  change_company_name()
+Static Method  is_valid_employee_id()
+Abstract Method  calculate_bonus()
+
+Explain in comments why each method is an instance/class/static/abstract method.
+
+7. Demonstrate Method Overriding
+
+Both Manager and Developer should override:
+
+calculate_bonus()
+
+and:
+
+display_details()
+
+The implementation should be different for each employee type.
+
+For example:
+
+Manager → Bonus based on salary + team size
+Developer → Bonus based on salary + projects completed
+8. Demonstrate Polymorphism
+
+Create a list containing different employee objects:
+
+employees = [
+    Manager(...),
+    Developer(...),
+    Developer(...),
+    Manager(...)
+]
+
+Loop through the list and call:
+
+employee.calculate_bonus()
+employee.display_details()
+
+The same method call should behave differently depending on the object.
+
+9. Demonstrate Inheritance
+
+Your program should clearly demonstrate:
+
+              Employee
+              /      \
+             /        \
+        Manager     Developer
+
+Explain:
+
+Parent class
+Child class
+Inherited methods
+Overridden methods
+super()
+10. Main Program
+
+Create at least:
+
+2 Manager objects
+3 Developer objects
+
+Then demonstrate all of the following:
+
+Display employee details.
+Calculate bonuses.
+Validate employee IDs using the static method.
+Change the company name using the class method.
+Access public variables.
+Demonstrate protected variables.
+Demonstrate private salary encapsulation.
+Demonstrate method overriding.
+Demonstrate polymorphism.
+Demonstrate inheritance.
+Demonstrate abstraction.

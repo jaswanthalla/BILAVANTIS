@@ -6,8 +6,8 @@ comment
 USE intro_sql;
 
 -- selecting particular columns from the table
-
 select id,city,country from customers;
+
 -- selecting all the culmns from the table
 select * from customers;
 
@@ -17,12 +17,12 @@ select company_name as Company_Name from customers;
 -- removing the duplicate row from the table
 select distinct country from customers;
 
--- selecting required columns where the given value is true
+-- selecting required columns from the table where the given value is true
 select id,phone,Company_Name from customers where country="USA";
 
 select * from orders;
 
--- selecting the required columns where the given conditiona is true
+-- selecting the required columns where the given condition is true
 select id,customer_id,shipper,freight from orders where freight>100;
 
 select * from products;
