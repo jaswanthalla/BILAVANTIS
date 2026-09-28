@@ -14,3 +14,4 @@ def divide(a, b):
 divide(10, 2)
 divide(5, 0)
 divide("ten", 2)
+print("hi")
