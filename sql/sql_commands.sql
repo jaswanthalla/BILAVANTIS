@@ -60,13 +60,16 @@ select category,max(units_in_stock) as "total stock" from products group by cate
 
 
 -- creating database
-create database db;
-
 use db;
 
--- creating table
-create table employees(id int not null auto_increment,first_name varchar(255),last_name varchar(255),department varchar(255),primary key(id));
+select * from employees;
 
-insert into employees(first_name,last_name,deptartment)
-values("surya","reddy","IT")
+INSERT INTO employees (id, first_name, last_name, department)
+VALUES
+(1, 'Alice', 'Johnson', 'HR'),
+(2, 'Bob', 'Smith', 'IT'),
+(3, 'Charlie', 'Brown', 'Finance'),
+(4, 'Diana', 'Williams', 'Marketing');
+
+select * from employees;
 
