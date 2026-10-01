@@ -17,3 +17,12 @@ df.fillna(22, inplace=True)
 
 print("\nAfter fillna:")
 print(df)
+df = df.rename(columns={"ID": "id"})
+print(df)
+
+df = df.drop(columns=["Email"])
+print(df)
+df["Age"] = pd.to_numeric(df["Age"], errors="coerce").fillna(0).astype(int)
+df["Age"] = df["Age"].apply(lambda x: x + 1)
+
+print(df)

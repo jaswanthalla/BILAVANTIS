@@ -1,0 +1,15 @@
+Introduction- Keywords and Identifiers, Statements & Comments, Python Variables, Python Type Conversion,
+Python I/O and import, Python Operators, Python Namespace
+Python Datatypes-Python Numbers, Python List, Python Tuple
+Python Datatypes - Python String, Python Set, frozen set, Python Dictionary, Python range
+Python flow Control statements and conditional statements- Python if...else....elif, Python for Loop, Python while Loop, Python break and continue, Python Pass
+Python Functions - Python Function, Function Argument, Python Recursion, Anonymous Function, Global, Local and Nonlocal, Python Global Keyword
+Python Object & Class - Python OOPs, Classes & Objects, Inheritance, Abstraction and encapsulation, Overloading and overriding
+Python Methods - instance method, Static method and class method, instant variable and class variables, constructors
+Python Files - Python File Operation and file handling, Exception Handling
+Python Advanced Topics - Python Iterator, Python Generator, Python Decorators, lambda, map, filter and reduce
+Python Modules and packages- Python Modules, Python Packages, Python Libraries, Python Regex and date time
+Pandas dataframes introduction and selecting and viewing the data
+Operations, grouping, merging and Manipulating data
+Read files using python (CSV, JSON, EXCEL and XML)
+
